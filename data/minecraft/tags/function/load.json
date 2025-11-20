@@ -1,5 +1,6 @@
 {
     "values": [
-        "illusion:init/load"
+        "illusion:init/load",
+        "illusion:global_utils/global_id"
     ]
 }
