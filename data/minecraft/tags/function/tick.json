@@ -1,5 +1,6 @@
 {
     "values": [
-        "illusion:global_utils/tick"
+        "illusion:global_utils/tick",
+        "illusion:global_utils/timers"
     ]
 }
