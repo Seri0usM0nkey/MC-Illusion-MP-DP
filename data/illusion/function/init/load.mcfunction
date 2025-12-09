@@ -17,7 +17,7 @@ scoreboard players add @a moved 0
 scoreboard players add @a moved_timer 0
 
 # Test only resets
-stopsound @a master minecraft:illusion.spawn_locus
+stopsound @a master minecraft:illusion.first_illusion
 scoreboard players set @a spawn 0
 scoreboard players set @a intro_timer 0
 scoreboard players set @a story_timer_delay 0
