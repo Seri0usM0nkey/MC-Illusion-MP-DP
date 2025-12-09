@@ -1,0 +1,1 @@
+$execute as @a[scores={frame=..$(DELAY)},tag=!creator] run scoreboard players add @a frame 1

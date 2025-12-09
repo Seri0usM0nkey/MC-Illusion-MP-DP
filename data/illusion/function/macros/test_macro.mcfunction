@@ -1,0 +1,1 @@
+$tellraw @a {"text":"$CUTSCENE_WALK: $(TEST)","color":"aqua","extra":[{"score":{"name":"@s","objective":"settings"},"color":"white"}]}
