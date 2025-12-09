@@ -10,3 +10,11 @@ execute store result storage settings:cutscene_walk DELAY int 1 run scoreboard p
 function illusion:macros/cutscene_delay_macro with storage settings:cutscene_walk
 
 execute as @a[scores={animationprogress=1,animation=1}] at @s run function illusion:cutscenes/camera_movement
+
+# Fix shaders not fully loading fov spawn work-around (SPAWN)
+execute as @a[scores={intro_timer=100}] run tp @s 10000 19 10000 45 0
+execute as @a[scores={intro_timer=110}] run tp @s 10000 19 10000 90 0
+execute as @a[scores={intro_timer=120}] run tp @s 10000 19 10000 135 0
+execute as @a[scores={intro_timer=130}] run tp @s 10000 19 10000 180 0
+execute as @a[scores={intro_timer=140}] run tp @s 10000 19 10000 225 0
+execute as @a[scores={intro_timer=150}] run tp @s 10000 19 10000 270 0
