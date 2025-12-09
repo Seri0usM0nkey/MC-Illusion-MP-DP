@@ -1,3 +1,6 @@
+# Assign ids to players at the start of the game
+execute as @p[scores={global_id=0,spawn=0}] run function illusion:global_utils/global_id
+
 function illusion:global_utils/in_spawn
 execute as @a if score @s intro_timer <= INTRO_TIME settings run function illusion:spawn/intro/intro_text
 execute as @a if score @s story_timer_delay >= STORY_DELAY settings run function illusion:global_utils/story_progress

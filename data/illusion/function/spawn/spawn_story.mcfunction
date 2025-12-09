@@ -10,4 +10,6 @@ execute as @a[tag=blind_tp,tag=!blind_tp_snapshot] run schedule function illusio
 execute as @a[tag=blind_tp] run tag @s add blind_tp_snapshot
 tag @a[tag=blind_tp] remove blind_tp
 
-# Step 3 ??
+# Step 3 Stay still to get out of infinite run (800 frames)
+execute as @a[scores={spawn=1,moved_timer=..800}] run function illusion:spawn/infinite_run_escape
+execute as @a[scores={spawn=1,moved_timer=800}] run scoreboard players set @s spawn 2

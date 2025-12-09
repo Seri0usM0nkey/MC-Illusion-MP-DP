@@ -56,3 +56,16 @@ scoreboard objectives add animationprogress dummy
 scoreboard players set @s frame 0
 scoreboard players set @s animation 0
 scoreboard players set @s animationprogress 0
+
+# Set up player data (position)
+# Used in spawn = 1 to detect movement
+scoreboard objectives add pos_x dummy
+scoreboard objectives add pos_y dummy
+scoreboard objectives add pos_z dummy
+scoreboard objectives add moved dummy
+
+scoreboard objectives add last_pos_x dummy
+scoreboard objectives add last_pos_y dummy
+scoreboard objectives add last_pos_z dummy
+
+scoreboard objectives add moved_timer dummy
